@@ -10,9 +10,10 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 @EnableDiscoveryClient
 @EnableFeignClients
+
 public class MicroService1Application {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MicroService1Application.class, args);
+	public static void main(String[] args) {				
+		SpringApplication.run(MicroService1Application.class, args);		
 	}
 }
