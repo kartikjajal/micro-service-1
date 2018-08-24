@@ -25,7 +25,7 @@ public class Service1 {
 		return service2.getAllUsers();
 	}
 	
-	@RequestMapping("/common")
+	@RequestMapping("/common")	
 	public String common() {
 		return "hello-from-common-service-1 with "+serverPort;
 	}
